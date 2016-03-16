@@ -1,0 +1,23 @@
+{
+  "name": "Test_AirWallex",
+  "authors": [
+    "asif-web-engineer <Asif-SoftwareEngineer@users.noreply.github.com>"
+  ],
+  "description": "In Order to demo the front-end work along with its build task runner configuration",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}

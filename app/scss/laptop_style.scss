@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  	.navbar-btn-visibility {
+		display:none;
+	}
+	
+	.carousel_rev-forward_btn {
+		  background-color:#A6C6E0;
+		  width:5%;
+		  height:25%;
+		  top: 50%;
+		  -webkit-transform: translateY(-50%);
+		  -ms-transform: translateY(-50%);
+		  transform: translateY(-50%);
+		  margin-left:90px;
+		  margin-right:auto;
+
+	}
+	
+	.advertisement_carousel_in_laptop_size {
+		width:75%;
+	}
+	
+  
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  	.navbar-btn-visibility {
+		display:none;
+	}  
+	
+	.carousel_rev-forward_btn {
+		  background-color:#A6C6E0;
+		  width:5%;
+		  height:25%;
+		  top: 50%;
+		  -webkit-transform: translateY(-50%);
+		  -ms-transform: translateY(-50%);
+		  transform: translateY(-50%);
+		  margin-left:120px;
+		  margin-right:auto;
+	}  	
+}
+
